@@ -21,6 +21,7 @@
 
 .Hlinks a{
     text-decoration: none;
+    font-size: 90%;
     color: rgb(255, 255, 255);
     font-weight: 600;
 }
@@ -42,7 +43,7 @@
 
 /*Begin body styling*/
 body{
-    background-image: url('/assets/computer.jpg');
+    background-image: url('/assets/back.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -55,7 +56,7 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 90vh;
+    height: 100vh;
     width: 100%;
 }
 
