@@ -1,3 +1,14 @@
-body {
+.HeaderSec{
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
+    height: 60px;
 }
+
+.Hlinks{
+    display: flex;
+    gap: 20px;
+    margin: 10px;
+}
+
