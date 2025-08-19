@@ -4,6 +4,7 @@
     justify-content: space-between;
     align-items: center;
     height: 5%;
+    color: white;
 }
 
 .Hlinks{
@@ -20,7 +21,7 @@
 
 .Hlinks a{
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
     font-weight: 600;
 }
 .Hlinks a:hover{
@@ -40,7 +41,23 @@
 /*End Header section styles*/
 
 /*Begin body styling*/
+body{
+    background-image: url('/assets/computer.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 
+    color: white;
+}
+
+.body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    width: 100%;
+}
 
 /*End body styling*/
 
