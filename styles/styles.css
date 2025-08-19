@@ -52,6 +52,7 @@ body{
 }
 
 .body{
+    background-color: red;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -60,9 +61,25 @@ body{
     width: 100%;
 }
 
+img{
+    
+    height: 40%;
+    width: 20%;
+}
+
 /*End body styling*/
 
 /*Begin footer styling*/
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
 
 
 /*End footer styling*/
