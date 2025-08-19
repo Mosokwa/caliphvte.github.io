@@ -1,6 +1,5 @@
 /*Header section styles*/
 .HeaderSec{
-    background-color: red;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -14,7 +13,19 @@
     align-items: center;
     justify-content: right;
     gap: 10%;
-    margin: 2%;
+    margin-top:2%;
+    margin-bottom:2%;
+    margin-right: 5%;
+}
+
+.Hlinks a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+.Hlinks a:hover{
+    color: red;
+    text-decoration: underline;
 }
 
 .logo{
@@ -22,5 +33,18 @@
     width: 50%;
     display: flex;
     align-items: center;
-    margin: 2%;
+    margin-top:2%;
+    margin-bottom:2%;
+    margin-left: 5%;
 }
+/*End Header section styles*/
+
+/*Begin body styling*/
+
+
+/*End body styling*/
+
+/*Begin footer styling*/
+
+
+/*End footer styling*/
