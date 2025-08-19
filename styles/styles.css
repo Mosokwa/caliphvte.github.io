@@ -43,7 +43,7 @@
 
 /*Begin body styling*/
 body{
-    background-image: url('/assets/computer.jpg');
+    background-image: url('/assets/back.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -62,7 +62,6 @@ body{
 }
 
 img{
-    
     height: 40%;
     width: 20%;
 }
